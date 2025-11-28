@@ -24,6 +24,36 @@ A beautiful and efficient task management application with Kanban board, real-ti
 - 📊 Analytics Dashboard
 - 🔔 Advanced Notifications
 
+## 📸 Screenshots
+
+<div align="center">
+
+### Home Page
+<img src="./screenshots/home.png" alt="Home Page" width="800"/>
+
+### Login 
+<img src="./screenshots/login.png" alt="Login" width="800"/>
+
+### Register
+<img src="./screenshots/register.png" alt="Register" width="800"/>
+
+### Dashboard
+<img src="./screenshots/dashboard.png" alt="Dashboard" width="800"/>
+
+### Tasks Kanban Board 
+<img src="./screenshots/task_kanban.png" alt="Task Kanban Board" width="800"/>
+
+### Tasks List View 
+<img src="./screenshots/task_list.png" alt="Task List View" width="800"/>
+
+### Create New Task
+<img src="./screenshots/create_new_task.png" alt="Create New Task" width="800"/>
+
+### Notification
+<img src="./screenshots/notif.png" alt="Notification" width="800"/>
+
+</div>
+
 ## 🛠️ Tech Stack
 
 **Frontend:**
