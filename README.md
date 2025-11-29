@@ -144,8 +144,6 @@ Password: password
 ### Database
 - MongoDB Atlas already cloud-based
 
-## 📸 Screenshots
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
