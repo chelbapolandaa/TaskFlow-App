@@ -100,20 +100,20 @@ A beautiful and efficient task management application with Kanban board, real-ti
    ```
 
 2. **Backend Setup**
-```
-cd backend
-npm install
-cp .env.example .env
-# Edit .env with your MongoDB Atlas connection string
-npm run dev
-```
+   ```bash
+   cd backend
+   npm install
+   cp .env.example .env
+   # Edit .env with your MongoDB Atlas connection string
+   npm run dev
+   ```
 
 3. **Frontend Setup**
-```
-cd frontend
-npm install
-npm run dev
-```
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
 
 4. **Access the Application**
 
