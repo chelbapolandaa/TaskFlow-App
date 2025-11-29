@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { TaskProvider } from './context/TaskContext';
 import { NotificationProvider } from './context/NotificationContext'; // ✅ IMPORT INI
+import { SocketProvider } from './context/SocketContext';
 import Header from './components/common/Header';
 import Home from './pages/Home';
 import Login from './pages/Login';
@@ -11,6 +12,7 @@ import Dashboard from './pages/Dashboard';
 import Tasks from './pages/Tasks';
 import './index.css';
 import Footer from './components/common/Footer';
+
 
 // Protected Route component
 const ProtectedRoute = ({ children }) => {
@@ -92,11 +94,13 @@ function AppContent() {
 function App() {
   return (
     <AuthProvider>
-      <TaskProvider>
-        <NotificationProvider> {/* ✅ PASTIKAN INI ADA */}
-          <AppContent />
-        </NotificationProvider>
-      </TaskProvider>
+      <SocketProvider>
+        <TaskProvider>
+          <NotificationProvider>
+            <AppContent />
+          </NotificationProvider>
+        </TaskProvider>
+      </SocketProvider>
     </AuthProvider>
   );
 }
